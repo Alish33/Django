@@ -1,5 +1,6 @@
 from xml.parsers.expat import model
 from django.db import models
+from datetime import date
 
 # Create your models here.
 class Customer(models.Model):
